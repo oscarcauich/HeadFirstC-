@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EBCA79B8-9761-4F35-AE48-F38294FCDF86}</ProjectGuid>
+    <ProjectGuid>{50F7CA55-7EF8-469D-9C50-766DFA53CB7A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Time_to_start_coding</RootNamespace>
-    <AssemblyName>Time_to_start_coding</AssemblyName>
+    <RootNamespace>Talker</RootNamespace>
+    <AssemblyName>Talker</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,6 +54,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Talker.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EBCA79B8-9761-4F35-AE48-F38294FCDF86}</ProjectGuid>
+    <ProjectGuid>{8B071396-573E-44B8-BA84-D4C508495BC0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Time_to_start_coding</RootNamespace>
-    <AssemblyName>Time_to_start_coding</AssemblyName>
+    <RootNamespace>Sloppy_Joe_s_Menu</RootNamespace>
+    <AssemblyName>Sloppy Joe%27s Menu</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,6 +52,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuMaker1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

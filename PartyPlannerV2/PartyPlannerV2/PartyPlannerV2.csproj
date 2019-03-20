@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EBCA79B8-9761-4F35-AE48-F38294FCDF86}</ProjectGuid>
+    <ProjectGuid>{0D2190DD-6976-45F1-AEF8-8719A6E7C405}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Time_to_start_coding</RootNamespace>
-    <AssemblyName>Time_to_start_coding</AssemblyName>
+    <RootNamespace>PartyPlannerV2</RootNamespace>
+    <AssemblyName>PartyPlannerV2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BirthdayParty.cs" />
+    <Compile Include="DinnerParty.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
